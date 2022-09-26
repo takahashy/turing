@@ -1,0 +1,5 @@
+blank: 'b'
+start: q0
+table:
+    q0: {write: 'b','0', R: q1}
+    q1: {write: 'b','1', R: q0}
